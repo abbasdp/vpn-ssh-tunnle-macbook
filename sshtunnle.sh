@@ -1,4 +1,8 @@
 #!/bin/bash
+
+# Copyright Abbas Davarpanah <z.abbas.130@gmail.com>
+#https://github.com/abbasdp/vpn-ssh-tunnle-macbook
+
 starts () {
 read -p "Enter UserName Server : " server_us 
 read -p "Enter Server IP Address : " server_ip 

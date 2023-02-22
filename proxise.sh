@@ -1,4 +1,8 @@
 #!/bin/bash
+
+# Copyright Abbas Davarpanah <z.abbas.13>
+#https://github.com/abbasdp/vpn-ssh-tunn>
+
 networkkill () {
     networksetup -setsocksfirewallproxystate "Wi-Fi" off 2> /dev/null
     echo
